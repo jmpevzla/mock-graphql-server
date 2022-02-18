@@ -1,0 +1,23 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Dolphin Express-GraphQL Mock Server",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "json-graphql-server db.js --p 3000 --h localhost",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.6.3",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "json-graphql-server": "^2.3.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
